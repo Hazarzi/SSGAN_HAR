@@ -9,8 +9,6 @@ from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 from pandas import Series
 from sklearn.model_selection import train_test_split
 
-#os.chdir('/home/labuser1/Hazar')
-
 
 def sliding_window(x, y, window_size, step_size):
     print('Sliding all over the data! (Sliding windows)')
