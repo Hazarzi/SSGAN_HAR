@@ -1,6 +1,6 @@
 # SSGAN_HAR.
 
-To run the file in command line : python TempSSGAN.py 128 300 PAMAP2
+To run the framework in command line : python TempSSGAN.py 128 300 PAMAP2
 
 Folder structure to run the model:
 
