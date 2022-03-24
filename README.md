@@ -8,6 +8,11 @@ Folder structure to run the model:
 ├── TempSSGAN.py              # File containing networks and training.       
 └── PAMAP2_Dataset               
 
+.
+├── build                   # Compiled files (alternatively `dist`)
+├── docs                    # Documentation files (alternatively `doc`)
+├── src                     # Source files (alternatively `lib` or `app`)
+
 PAMAP2 dataset is available at https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring.
 
 Framework uses Tensorflow 2+, tensorflow_addons, numpy, pandas, matplotlib, scikit-learn.
