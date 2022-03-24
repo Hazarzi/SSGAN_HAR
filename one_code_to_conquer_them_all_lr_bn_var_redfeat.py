@@ -11,9 +11,7 @@ from sklearn import metrics
 import argparse
 import matplotlib.pyplot as plt
 
-os.chdir('/home/labuser1/Hazar')
-
-from hazar_preprocessing_combined import Subject_UCI, Subject_OPPO,Subject_PAMAP,Subject_LISSI, load_data
+from preprocessing import Subject_UCI, Subject_OPPO,Subject_PAMAP,Subject_LISSI, load_data
 from tensorflow.keras.models import Model
 from tensorflow.python.keras.utils.np_utils import to_categorical
 from tensorflow.keras.layers import Input,LeakyReLU, Input, BatchNormalization
